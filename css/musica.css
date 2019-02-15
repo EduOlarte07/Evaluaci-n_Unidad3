@@ -1,0 +1,27 @@
+.encabezado
+{
+  background: #007bff;
+  border-radius: 10px;
+  height: 100px;
+}
+.img-social
+ {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.logo
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.navbar
+{
+  text-align: center;
+  border-radius: 10px;
+}
+.img_content
+{
+  width: 100%;
+}
