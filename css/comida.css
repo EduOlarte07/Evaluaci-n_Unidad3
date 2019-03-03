@@ -1,0 +1,18 @@
+.cuerpo
+{
+  background: url(../img/cocina.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.opacity
+{
+  opacity: 0.9;
+}
+.card
+{
+  background-color: #FF7676;
+  margin: 0px 10px 10px 10px;
+}
