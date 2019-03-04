@@ -7,9 +7,9 @@
   background-attachment: fixed;
 }
 
-.opacity
+#uno
 {
-  opacity: 0.9;
+  background: rgba(5, 83, 251, 0.8);
 }
 .card
 {
