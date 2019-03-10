@@ -9,10 +9,24 @@
 
 #uno
 {
-  background: rgba(5, 83, 251, 0.8);
+  background: rgba(6, 72, 88, 0.9);
 }
+.titulo
+{
+  color: white;
+}
+.lateral
+{
+  background-color: #EAFCF4;
+}
+
 .card
 {
-  background-color: #FF7676;
+  background-color: #AAF9D6;
   margin: 0px 10px 10px 10px;
+}
+.avatar
+{
+  width: 40px;
+  height: 40px;
 }
