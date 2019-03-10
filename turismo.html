@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html style="background-image: url(img/losroques.jpg);background-attachment: fixed">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1.0">
@@ -11,24 +12,31 @@
     <link rel="stylesheet" href="css/materialize-social.css" type="text/css" media="screen, projection"/>
     <title>Blog Turismo en Venezuela</title>
   </head>
+
   <body>
     <div class="row">
-      <div class="col l12 blue darken-4 white-text cabecera">
+      <div class="col l12 m12 s12 blue darken-4 white-text cabecera">
         <div class="row">
-          <div class="col l2">
+          <div class="col l2 m2 s2">
             <a href="#" class="brand-logo left" ><img src="img/venezuela.png" alt="logo-perfil" class="logo-perfil"></a>
           </div>
-            <ul class="right">
+            <ul class="right hide-on-med-and-down">
               <a class="waves-effect waves-light btn"><i class="material-icons left">home</i>Inicio</a>
               <a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i>Sitios Favoritos</a>
               <a class="waves-effect waves-light btn"><i class="material-icons left">flight</i>Proximos Viajes</a>
               <a class="waves-effect waves-light btn"><i class="material-icons left">location_city</i>Recomendaciones</a>
             </ul>
+            <ul class="right hide-on-large-only">
+              <a class="waves-effect waves-light btn"><i class="material-icons left">home</i></a>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i></a>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">flight</i></a>
+              <a class="waves-effect waves-light btn"><i class="material-icons left">location_city</i></a>
+            </ul>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col l1">
+      <div class="col l1 m1 hide-on-small-only">
         <ul class="center-align">
           <li><a class="waves-effect waves-light btn-floating btn-large social google"><i class="fa fa-google"></i></a></li>
           <li><a class="waves-effect waves-light btn-floating btn-large social facebook"><i class="fa fa-facebook"></i></a></li>
@@ -37,25 +45,25 @@
           <li><a class="waves-effect waves-light btn-floating btn-large social twitter"><i class="fa fa-twitter"></i></a></li>
         </ul>
       </div>
-      <div class="col l4">
+      <div class="col l4 m4">
         <img src="img/medanos_coro.jpg" class="responsive-img" alt="imagen">
         <img src="img/morrocoy.jpg" class="responsive-img" alt="imagen">
       </div>
-      <div class="col l3">
+      <div class="col l3 m3">
         <img src="img/salto_angel.png" class="responsive-img" alt="imagen">
       </div>
-      <div class="col l4">
+      <div class="col l4 m4">
         <img src="img/los_roques.jpg" class="responsive-img" alt="imagen">
         <img src="img/salto_angel.jpg" class="responsive-img" alt="imagen">
         <img src="img/islatortuga.jpg" class="responsive-img" alt="imagen">
       </div>
     </div>
     <div class="row">
-      <div class="col l8">
+      <div class="col l8 m8">
         <div class="row">
           <div class="card-panel white black-text">
             <div class="col l4 s12">
-              <img src="img/morrocoy_03.jpg" alt="Parque Nacional Morrocoy">
+              <img src="img/morrocoy_03.jpg" class="responsive-img" alt="Parque Nacional Morrocoy">
             </div>
             <h4>Parque Nacional Morrocoy</h4>
               <div class="chip">
@@ -69,24 +77,24 @@
 
         </div>
         <div class="row blue white-text">
-          <div class="input-field col l6 s12 ">
+          <div class="input-field col l6 m6 s12">
             <i class="material-icons prefix">perm_identity</i>
             <input type="text" id="nombre" class="validate">
             <label for="nombre" class="white-text">Nombre y Apellido</label>
           </div>
-          <div class="input-field col l6 s12 ">
+          <div class="input-field col l6 m6 s12 ">
             <i class="material-icons prefix">email</i>
             <input type="email" id="email" class="validate">
             <label for="email" class="white-text" data-success="email correcto" data-error="Ingresa un email valido">E-mail</label>
           </div>
-          <div class="input-field col s12 ">
+          <div class="input-field col s12">
             <i class="material-icons prefix">chat_bubble</i>
             <textarea id="texto" class="materialize-textarea"></textarea>
             <label for="texto" class="white-text">Comentario</label>
           </div>
         </div>
       </div>
-      <div class="col l4 s12">
+      <div class="col l4 m4 s12">
         <div class="card-panel white black-text">
           <div class="card">
             <img src="img/perfil.jpg" alt="perfil" class="circle responsive-img">
