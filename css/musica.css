@@ -1,8 +1,12 @@
+body
+{
+  background-color: #95E891;
+}
 .encabezado
 {
   background: #007bff;
   border-radius: 10px;
-  height: 150px;
+  height: 130px;
 }
 .img-social
 {
@@ -14,13 +18,24 @@
 {
   width: 80px;
   height: 80px;
-  border-radius: 10px;
+  margin-top: 15px;
 }
 .navbar
 {
+  margin-top: 10px;
   border-radius: 10px;
 }
 .img_content
 {
   width: 100%;
+}
+.principal
+{
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.entradas
+{
+  margin-top: 10px;
 }
